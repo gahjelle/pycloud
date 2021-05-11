@@ -8,7 +8,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - { name: Linux-Py36, python: "3.6", os: ubuntu-latest, tox: py }
           - { name: Linux-Py37, python: "3.7", os: ubuntu-latest, tox: py }
           - { name: Linux-Py38, python: "3.8", os: ubuntu-latest, tox: py }
           - { name: Linux-Py39, python: "3.9", os: ubuntu-latest, tox: py }
